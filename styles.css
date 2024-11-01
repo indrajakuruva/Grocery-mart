@@ -1,0 +1,103 @@
+/* General styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin-left: 10px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Form section */
+.form-section {
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.form-section h2 {
+    margin-bottom: 15px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form input, .form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.form button:hover {
+    background-color: #45a049;
+}
+
+/* Toggle button styles */
+.form-toggle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.form-toggle button {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.form-toggle button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Link inside forms */
+.form p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.form p a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+.form p a:hover {
+    text-decoration: underline;
+}
+
+/* Hidden class for toggling forms */
+.hidden {
+    display: none;
+}
